@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C97AEDBE-4B88-48FF-AFE2-6DC09741EB09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gertec.Api", "Gertec.Api\Gertec.Api.csproj", "{8B2F4654-80FC-4416-8B4A-6279F82EE744}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gertec.Application", "Gertec.Application\Gertec.Application.csproj", "{B72899D4-0C9A-4DD1-8F85-568369188DC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gertec.CrossCutting", "Gertec.CrossCutting\Gertec.CrossCutting.csproj", "{453D4048-DB3D-451A-A865-C34C24FF6DE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gertec.Domain", "Gertec.Domain\Gertec.Domain.csproj", "{D5A7A24B-5E44-4924-9649-6D031BF3593C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gertec.Infrastructure", "Gertec.Infrastructure\Gertec.Infrastructure.csproj", "{61CFAA0C-8779-439C-A87D-703FA3593E0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B2F4654-80FC-4416-8B4A-6279F82EE744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B2F4654-80FC-4416-8B4A-6279F82EE744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B2F4654-80FC-4416-8B4A-6279F82EE744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B2F4654-80FC-4416-8B4A-6279F82EE744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B72899D4-0C9A-4DD1-8F85-568369188DC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B72899D4-0C9A-4DD1-8F85-568369188DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B72899D4-0C9A-4DD1-8F85-568369188DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B72899D4-0C9A-4DD1-8F85-568369188DC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{453D4048-DB3D-451A-A865-C34C24FF6DE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{453D4048-DB3D-451A-A865-C34C24FF6DE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{453D4048-DB3D-451A-A865-C34C24FF6DE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{453D4048-DB3D-451A-A865-C34C24FF6DE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5A7A24B-5E44-4924-9649-6D031BF3593C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5A7A24B-5E44-4924-9649-6D031BF3593C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5A7A24B-5E44-4924-9649-6D031BF3593C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5A7A24B-5E44-4924-9649-6D031BF3593C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61CFAA0C-8779-439C-A87D-703FA3593E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61CFAA0C-8779-439C-A87D-703FA3593E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61CFAA0C-8779-439C-A87D-703FA3593E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61CFAA0C-8779-439C-A87D-703FA3593E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8B2F4654-80FC-4416-8B4A-6279F82EE744} = {C97AEDBE-4B88-48FF-AFE2-6DC09741EB09}
+		{B72899D4-0C9A-4DD1-8F85-568369188DC0} = {C97AEDBE-4B88-48FF-AFE2-6DC09741EB09}
+		{453D4048-DB3D-451A-A865-C34C24FF6DE0} = {C97AEDBE-4B88-48FF-AFE2-6DC09741EB09}
+		{D5A7A24B-5E44-4924-9649-6D031BF3593C} = {C97AEDBE-4B88-48FF-AFE2-6DC09741EB09}
+		{61CFAA0C-8779-439C-A87D-703FA3593E0D} = {C97AEDBE-4B88-48FF-AFE2-6DC09741EB09}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {436FFD86-F8C5-4982-9A2C-373A36AA3C3A}
+	EndGlobalSection
+EndGlobal
